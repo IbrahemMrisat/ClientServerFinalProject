@@ -1,0 +1,59 @@
+[
+  {
+  
+  "name": "Huawei s5",
+  "description": "Nice Phone",
+  "models": [
+    {"warranty":"2 months warranty","price":200, "model":"32GB" },
+    {"warranty":"4 months warranty","price":500, "model":"128GB" },
+    {"warranty":"Life Time waranty","price":700, "model":"512GB" }
+  ]
+},
+{
+  "name": "realme  6i",
+  "description": "Best Mobile",
+  "models": [
+    {"warranty":"2 months warranty","price":200, "model":"32GB" },
+    {"warranty":"4 months warranty","price":500, "model":"64GB" },
+    {"warranty":"Life Time waranty","price":700, "model":"120GB" }
+  ]
+},
+	{
+      "name": "iPhone X",
+      "description": "Best smartphone ever",
+      "models": [
+        {"warranty": "2 month of warranty","price": "700","model": "64 GB" },
+        {"warranty": "4 month warranty","price": "900","model": "128 GB" },
+        {"warranty": "Life Time warranty","price": "1200","model": "512 GB" }
+      ]
+    },
+    {
+      "name": "Huwawei P10",
+      "description": "The most advanced phoner",
+      "models": [
+        {"warranty": "2 month of warranty","price": "130","model": "32 GB" },
+        {"warranty": "4 month warranty","price": "350","model": "128 GB" },
+        {"warranty": "Life Time warranty","price": "600","model": "512 GB" }
+      ]
+    },
+    {
+      "name": "Samsung S20",
+      "description": "Revolutionary smartphone",
+      "models": [
+        {"warranty": "2 month of warranty","price": "490","model": "128 GB" },
+        {"warranty": "4 month warranty","price": "690","model": "256 GB" },
+        {"warranty": "Life Time warranty","price": "990","model": "512 GB" }
+      ]
+    }
+    ,
+    {
+      "name": "OnePlus 8",
+      "description": "The fastest smartphone ever",
+      "models": [
+        {"warranty": "2 month of warranty","price": "150","model": "32 GB" },
+        {"warranty": "4 month warranty","price": "460","model": "128 GB" },
+        {"warranty": "Life Time warranty","price": "790","model": "512 GB" }
+      ]
+    }
+
+]
