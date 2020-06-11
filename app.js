@@ -13,7 +13,7 @@ var bodyParser = require("body-parser");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var recordsRouter = require("./routes/records");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt-nodejs");
 const jwt = require("jsonwebtoken");
 const pool = require("./config/postgrePool");
 require('./config/createTables');
