@@ -94,15 +94,14 @@ passport.use(
             next(null, false, { message: "Incorrect username." });
           } else {
             bcrypt
-              .compare(password, result.rows[0].password)
-              .then(function (results) {
+              .compare(password, result.rows[0].password,(function (results) {
                 console.log("data", result.rows[0]);
                 if (results) {
                   next(null, result.rows[0]);
                 } else {
                   next(null, false, { message: "Incorrect password." });
                 }
-              });
+              }));
           }
         }
       }
